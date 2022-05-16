@@ -1,0 +1,214 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    font-family: monospace;
+    grid-template-rows: 1fr;
+    justify-content: stretch;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: auto;
+    }
+}
+
+#left-side {
+    color: white;
+    background-color: #2A93D5;
+    height: 2100px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+
+}
+
+#profile {
+    background-color: #125488;
+    padding: 16px;
+    display: grid;
+    place-items: center;
+    height: 250px;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#main-info {
+    display: grid;
+    place-items: left;
+    padding: 16px;
+    justify-content: stretch;
+}
+
+#contact-info {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+#right-side {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.darker {
+    color: #125488;
+}
+
+.dark {
+    color: #2A93D5;
+}
+
+.light {
+    color: #37caec;
+}
+
+.lighter {
+    color: #d1ebff;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.pb-1 {
+    padding-bottom: 8px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: #d1ebff;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.ulist {
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+#interval {
+    text-align: end;
+}
+
+.interval {
+    color: gray;
+}
+
+.company {
+    color: rgb(85, 85, 85);
+}
+
+.address {
+    font-weight: lighter;
+}
+
+.jobdis {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    padding-left: 16px;
+}
+
+#skills {
+    padding-left: 16px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+.progressbar {
+    background-color: #d1ebff;
+    border-radius: 13px;
+    padding: 3px;
+    display: block;
+}
+
+.progressbar>div {
+    background-color: #125488;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.skill {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.font-color {
+    color: rgb(85, 85, 85);
+}
+
+li>a {
+    background-color: #2A93D5;
+    color: white;
+    font-size: 16px;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+#objective {
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    text-align: justify;
+}
+
+#new {
+    padding-top: 72px;
+}
